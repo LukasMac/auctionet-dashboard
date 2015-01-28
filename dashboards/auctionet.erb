@@ -1,0 +1,24 @@
+<% content_for :title do %>Auctionet dashboard<% end %>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Image" data-image="/auctionet.png"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
+      <div data-id="welcome" data-view="Text" data-title="Hello, Auctionet!" data-text="This is dashboard for you by Lukas Maciulis." data-moreinfo="Dashboard is updated every 10 sec."></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
+      <div data-id="items-recent-bid" data-view="List" data-unordered="true" data-title="Five items and their last bid"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="sek-over-eur-domination" data-view="Meter" data-title="SEK over EUR domination" data-min="0" data-max="100"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="recent-bid" data-view="Number" data-title="Last Bid" data-moreinfo="" data-prefix=""></div>
+    </li>
+  </ul>
+</div>
